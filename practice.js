@@ -18,7 +18,7 @@ var arr = [10,20,30];
 */
 
 function first(arr){
-  returnarr[0];
+  return arr[0];
 }
 
 
@@ -34,7 +34,9 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
+function last(arr){
+  return arr[arr.length - 1];
+}
 
 
 
@@ -49,7 +51,9 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
+function looper(family){
+  family.map(member => alert(member));
+}
 
 
 
