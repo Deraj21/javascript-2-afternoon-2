@@ -91,7 +91,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 // It looks like this test if faulty. It tests twice, using the same array each time. //
 
 function evenFinder(nums){
-  return numbers.filter(number => Number(number) % 2 === 0);
+  return nums.filter(number => Number(number) % 2 === 0);
 }
 
 
@@ -214,7 +214,7 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 
 // I also think that this test if faulty. It tests twice, using the same array each time, but expects a different answer the 2nd time //
 
-function addTen(nummbers){
+function addTen(numbers){
   return (numbers.map(number => parseInt(number) + 10));
 }
 
